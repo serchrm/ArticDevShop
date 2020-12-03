@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* ESTILOS HEADER NAV */
+
+.imgNav{
+    margin-left: 10%;
+}
+
+#navbarNav{
+    margin-left: 10%;
+}
+
+#carritoBtn{
+    margin-left: 48%;
+}
+
+#botonLogin{
+    margin-left: 2%;
+}
+
+@media (max-width: 1486px) {
+    #carritoBtn{
+        margin-left: 40%;
+    }
+}
+
+@media (max-width: 1320px) {
+    #carritoBtn{
+        margin-left: 32%;
+    }
+}
+
+@media (max-width: 1166px) {
+    #carritoBtn{
+        margin-left: 18%;
+    }
+}
+
+@media (max-width: 1166px) {
+    #carritoBtn{
+        margin-left: 35%;
+    }
+}
+
+
+
+
+/* FIN ESTILOS HEADER NAV */
