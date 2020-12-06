@@ -27,7 +27,4 @@
         <a href="#" id="carritoBtn"><img src="/appweb/images/carticon.svg"></a>
         <button class="btn btn-primary" type="button" id="botonLogin">Login</button>
     </div>
-
-
-
 </nav>

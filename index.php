@@ -13,6 +13,30 @@
     <body>
         <?php require_once "appweb/inc/initialconfig.php";?>
         <?php include "appweb/mod/header.php" ?>
+        <div class="slideshow-container">
 
+            <div class="mySlides fade">
+                <img src="appweb/images/660M.jpg" style="width:800px; height: 600px;">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="appweb/images/IMG_5236.jpg" style="width:800px; height: 600px;">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="appweb/images/Test-GPU.jpg" style="width:800px; height: 600px;">
+            </div>
+
+        </div>
+        <br>
+
+        <div class="punto">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+        <script src="appweb/js/carrusel.js"></script>
+        <?php include "appweb/mod/footer.php";?>
     </body>
 </html>
