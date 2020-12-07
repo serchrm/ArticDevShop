@@ -82,3 +82,38 @@
 .slideshow-container img {vertical-align: middle;}
 /* Carrusel */
 
+/* Footer */
+.ico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    color: white;
+    font-size: 200%;
+    font-family: FontAwesome;
+}
+
+.footer1 {
+    text-align: center;
+    /*/border-bottom: 1px solid darkgrey;*/
+    widows: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: white;
+    font-weight: bold;
+}
+
+.descrip {
+    color: white;
+}
+
+.redes {
+    width: 30px;
+    height: 30px;
+}
+/* Footer */
+
