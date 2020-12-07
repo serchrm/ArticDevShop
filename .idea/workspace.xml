@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbd93108-0f37-444f-9fc1-57bfd956cbc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/appweb/js/carrusel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appweb/mod/errorScreen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appweb/mod/mainShop.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appweb/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appweb/mod/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appweb/mod/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -70,6 +69,7 @@
       <workItem from="1607019853475" duration="151000" />
       <workItem from="1607020031593" duration="381000" />
       <workItem from="1607229193131" duration="6802000" />
+      <workItem from="1607298047103" duration="4280000" />
     </task>
     <servers />
   </component>
@@ -89,10 +89,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="791" y="479" width="389" height="145" key="NewPhpFileDialog" timestamp="1606976732090">
-      <screen x="72" y="28" width="1848" height="1052" />
+    <state x="792" y="488" width="389" height="155" key="NewPhpFileDialog" timestamp="1607298932759">
+      <screen x="74" y="44" width="1846" height="1036" />
     </state>
     <state x="791" y="479" width="389" height="145" key="NewPhpFileDialog/72.28.1848.1052@72.28.1848.1052" timestamp="1606976732090" />
+    <state x="792" y="488" width="389" height="155" key="NewPhpFileDialog/74.44.1846.1036@74.44.1846.1036" timestamp="1607298932759" />
+    <state x="486" y="197" width="1022" height="736" key="SettingsEditor" timestamp="1607298062397">
+      <screen x="74" y="44" width="1846" height="1036" />
+    </state>
+    <state x="486" y="197" width="1022" height="736" key="SettingsEditor/74.44.1846.1036@74.44.1846.1036" timestamp="1607298062397" />
     <state x="72" y="28" width="1802" height="1008" key="dock-window-1" timestamp="1607013520906">
       <screen x="72" y="28" width="1848" height="1052" />
     </state>
