@@ -36,5 +36,6 @@
 ?>
 
 <?php include "footer.php";?>
+<script src="https://kit.fontawesome.com/791abd0481.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -38,5 +38,6 @@
 
         <script src="appweb/js/carrusel.js"></script>
         <?php include "appweb/mod/footer.php";?>
+        <script src="https://kit.fontawesome.com/791abd0481.js" crossorigin="anonymous"></script>
     </body>
 </html>
