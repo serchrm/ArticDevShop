@@ -48,7 +48,9 @@
 /* FIN ESTILOS HEADER NAV */
 
 /* Carrusel */
-.mySlides {display: none;}
+.mySlides {
+    display: none;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -79,7 +81,6 @@
     .text {font-size: 11px}
 }
 
-.slideshow-container img {vertical-align: middle;}
 /* Carrusel */
 
 /* Footer */
@@ -117,3 +118,180 @@
 }
 /* Footer */
 
+/* Productos más vencidos */
+.contenedor {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-accordion {
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    flex: 1;
+    height: 100%;
+    transform: skew(10deg);
+    cursor: pointer;
+    margin: 0 2px;
+    transition: all 0.3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #222;
+    position: relative;
+}
+
+.img1 {
+    background-image: url("../images/GPU-01.webp");
+}
+
+.img2 {
+    background-image: url("../images/GPU-01.webp");
+}
+
+.img3 {
+    background-image: url("../images/GPU-01.webp");
+}
+
+.img4 {
+    background-image: url("../images/GPU-01.webp");
+}
+
+.img5 {
+    background-image: url("../images/GPU-01.webp");
+}
+
+.img p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    transform: rotate(-90deg);
+    transform-origin: 0% 0%;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+}
+
+.img-accordion:hover .img {
+    transform: skew(0);
+}
+
+.img:hover {
+    flex: 5;
+}
+
+.img:hover p {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transform: rotate(0deg);
+}
+/* Productos más vencidos */
+
+/* Preguntas Frecuentes */
+section#preguntas{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.con-accordion{
+    background: #fff;
+    padding: 25px;
+    border-radius: 30px;
+    max-width: 630px;
+    width: 100%;
+}
+
+.accordion-content{
+    height: 0px;
+    overflow: hidden;
+    transition: all .25s ease;
+}
+
+.accordion-content p{
+    padding: 15px 20px;
+    padding-top: 10px;
+    opacity: .8;
+    user-select: none;
+    border-bottom: 1px dashed rgba(0,0,0,0.08);
+    border-top: .9rem;
+    font-size: 0.9rem;
+    background: rgb(0,139,188);
+    border-radius: 5px;
+    color: white;
+}
+
+.con-icon{
+    width: 28px;
+    height: 28px;
+    background: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: #fff;
+    pointer-events: none;
+    margin-right: 15px;
+    transition: all .25s ease;
+}
+
+.open header h3{
+    opacity: 1 !important;
+    padding-left: 4px;
+}
+
+.open header .con-icon{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.16);
+}
+
+.open header .con-icon i{
+    transform: rotate(135deg);
+}
+
+.accordion-item h3{
+    pointer-events: none;
+    user-select: none;
+    opacity: 0.6;
+    transition: all .25s ease;
+    font-weight: normal;
+}
+
+.accordion-item header{
+    padding: 12px 15px;
+    cursor: pointer;
+    transition: all .25s ease;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.accordion-item header:hover h3{
+    opacity: 1;
+    color: rgb(0,139,188);
+}
+
+.accordion-item:not(.open) header:hover h3{
+    padding-left: 4px;
+}
+
+h1#title{
+    padding-top: 1em;
+}
+/* Preguntas Frecuentes */

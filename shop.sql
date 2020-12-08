@@ -26,7 +26,7 @@ CREATE TABLE `admin` (
   `idAdmin` int NOT NULL,
   PRIMARY KEY (`idAdmin`),
   CONSTRAINT `admin_fk` FOREIGN KEY (`idAdmin`) REFERENCES `usuario` (`idUsuar`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -53,7 +53,7 @@ CREATE TABLE `carrito` (
   KEY `carrito_fk2` (`idProd`),
   CONSTRAINT `carrito_fk1` FOREIGN KEY (`idUsuar`) REFERENCES `usuario` (`idUsuar`),
   CONSTRAINT `carrito_fk2` FOREIGN KEY (`idProd`) REFERENCES `producto` (`idProd`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -77,7 +77,7 @@ CREATE TABLE `categoria` (
   `nombre` varchar(90) DEFAULT NULL,
   `descripcion` varchar(150) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -103,7 +103,7 @@ CREATE TABLE `cupon` (
   `descripcion` varchar(160) DEFAULT NULL,
   `porcentaje` tinyint DEFAULT NULL,
   PRIMARY KEY (`idCupon`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -129,7 +129,7 @@ CREATE TABLE `inventario` (
   `precComp` float(16,2) DEFAULT NULL,
   `precVent` float(16,2) DEFAULT NULL,
   PRIMARY KEY (`numLote`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -159,7 +159,7 @@ CREATE TABLE `inventario_venta` (
   CONSTRAINT `invent_fk1` FOREIGN KEY (`numLote`) REFERENCES `inventario` (`numLote`),
   CONSTRAINT `invent_fk2` FOREIGN KEY (`idVenta`) REFERENCES `venta` (`numVenta`),
   CONSTRAINT `inventario_venta_fk3` FOREIGN KEY (`cupon`) REFERENCES `cupon` (`idCupon`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -186,7 +186,7 @@ CREATE TABLE `producto` (
   PRIMARY KEY (`idProd`),
   KEY `producto_fk1` (`idCateg`),
   CONSTRAINT `producto_fk1` FOREIGN KEY (`idCateg`) REFERENCES `categoria` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -212,7 +212,7 @@ CREATE TABLE `usuario` (
   `email` varchar(120) NOT NULL,
   `pass_md5` char(32) DEFAULT NULL,
   PRIMARY KEY (`idUsuar`,`email`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -238,7 +238,7 @@ CREATE TABLE `venta` (
   PRIMARY KEY (`numVenta`),
   KEY `venta_fk1` (`comprador`),
   CONSTRAINT `venta_fk1` FOREIGN KEY (`comprador`) REFERENCES `usuario` (`idUsuar`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
