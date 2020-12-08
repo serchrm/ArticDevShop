@@ -34,7 +34,26 @@
     }else{
         $categ=$_GET["categ"];
     }
-    
+
+    $firstBand=true;
+    $anterior="";
+
+    if ($queryProd=$conexionBD->query("SELECT * FROM existenciaGeneral WHERE Existencia>0 ORDER BY IDProducto, Precio DESC;")){
+        while ($row = $queryProd->fetch_assoc()){
+            if ($firstBand){
+                $anterior=$row;
+                $firstBand=false;
+                echo "<p>".$row["nombre"]." ".$row["Precio"]."</p>";
+            }else{
+                if (!($anterior["IDProducto"]===$row["IDProducto"])){
+                    $anterior=$row;
+                    echo "<p>".$row["nombre"]." ".$row["Precio"]."</p>";
+                }
+            }
+        }
+    }
+
+
     echo "</div>";
 ?>
 </div>
