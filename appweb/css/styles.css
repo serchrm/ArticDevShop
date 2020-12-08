@@ -295,3 +295,20 @@ h1#title{
     padding-top: 1em;
 }
 /* Preguntas Frecuentes */
+
+/* ESTILOS MAIN SHOP */
+
+#areaTienda {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+#areaCateg{
+    display: block;
+    background-color: red;
+}
+
+#areaProductos{
+    background-color: blue;
+}

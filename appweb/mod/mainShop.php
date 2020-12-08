@@ -13,7 +13,7 @@
 <body>
 <?php require_once "../inc/initialconfig.php";?>
 <?php include "header.php" ?>
-
+<div id="areaTienda">
 <?php
     //GENERAR AREA CATEGORIAS
     /*CONSULTA EXISTENCIA: SELECT SUM(I.cantidad-if(ISNULL(IV.cantidad),0,I.cantidad)), I.idProd FROM inventario I LEFT JOIN inventario_venta IV ON I.numLote=IV.numLote GROUP BY I.idProd;
@@ -28,12 +28,16 @@
     }
     echo "</ul></div>";
     //GENERAR AREA PRODUCTOS
+    echo "<div id='areaProductos'>";
     if (!isset($_GET["categ"])||empty($_GET["categ"])){
         $categ="*";
     }else{
         $categ=$_GET["categ"];
     }
+    
+    echo "</div>";
 ?>
+</div>
 
 <?php include "footer.php";?>
 <script src="https://kit.fontawesome.com/791abd0481.js" crossorigin="anonymous"></script>
