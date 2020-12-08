@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a href="/index.php" class="navbar-brand">
-        <img class="imgNav d-block" width="140" src="appweb/images/logoNav.png">
+        <img class="imgNav d-block" width="140" src="/appweb/images/logoNav.png">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
             </li>
 
         </ul>
-        <a href="#" id="carritoBtn"><img src="appweb/images/carticon.svg"></a>
+        <a href="#" id="carritoBtn"><img src="/appweb/images/carticon.svg"></a>
         <button class="btn btn-primary" type="button" id="botonLogin">Login</button>
     </div>
 </nav>
