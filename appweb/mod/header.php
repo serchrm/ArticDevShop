@@ -20,7 +20,7 @@
                 <a class="nav-link h5" href="#">Conocenos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link h5" href="/FQA.php">Ayuda</a>
+                <a class="nav-link h5" href="/appweb/mod/FQA.php">Ayuda</a>
             </li>
 
         </ul>
