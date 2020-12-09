@@ -50,19 +50,21 @@
 /* Carrusel */
 .mySlides {
     display: none;
+    width: 100%;
 }
+
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+    width: 100%;
     position: relative;
-    margin: auto;
+    margin: 0 150px;
 }
 
 /* The dots/bullets/indicators */
 .dot {
     display: none;
-    transition: background-color 0.6s ease;
+    transition: background-color 0.2s ease;
 }
 
 /* Fading animation */
@@ -298,17 +300,3 @@ h1#title{
 
 /* ESTILOS MAIN SHOP */
 
-#areaTienda {
-    display: flex;
-    flex-flow: row wrap;
-
-}
-
-#areaCateg{
-    display: block;
-    background-color: red;
-}
-
-#areaProductos{
-    background-color: cornflowerblue;
-}

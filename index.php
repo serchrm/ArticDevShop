@@ -18,15 +18,15 @@
         <div class="slideshow-container">
 
             <div class="mySlides fade">
-                <img src="appweb/images/660M.jpg" style="width:998px; height: 600px;">
+                <img src="appweb/images/promo2.jpg" style="width:1200px; height: 450px;">
             </div>
 
             <div class="mySlides fade">
-                <img src="appweb/images/IMG_5236.jpg" style="width:998px; height: 600px;">
+                <img src="appweb/images/promo1.jpg" style="width:1200px; height: 450px;">
             </div>
 
             <div class="mySlides fade">
-                <img src="appweb/images/Test-GPU.jpg" style="width:998px; height: 600px;">
+                <img src="appweb/images/promo3.jpg" style="width:1200px; height: 450px;">
             </div>
 
         </div>

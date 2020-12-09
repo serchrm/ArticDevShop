@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Sarala:wght@700&display=swap');
+#areaTienda {
+    display: flex;
+    flex-flow: row wrap;
+}
+#areaCateg{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-basis: 10%;
+    margin: 25px    auto;
+    background-color: rgba(171, 183, 183, .2);
+    padding: 50px 25px;
+    border-radius: 25px;
+}
+
+.list-group *{
+    
+    margin-bottom: 25px;
+    padding-left: 35px;
+
+    padding-bottom: 15px; 
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    border-top-width: 2px !important;
+}
+#areaProductos{
+    padding-top: 50px;
+    margin: 25px auto;
+    border-radius: 25px;
+    
+    flex-basis: 85%;
+    display: flex;
+    flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+.prod-container{
+    -webkit-box-shadow: -1px 45px 43px -43px rgba(0,0,0,0.44);
+-moz-box-shadow: -1px 45px 43px -43px rgba(0,0,0,0.44);
+box-shadow: -1px 45px 43px -43px rgba(0,0,0,0.44);
+    background-color: white;
+     border: solid #cccccc .1px;
+   border-radius:15px; 
+   text-align: center;
+    margin: 1rem;
+    flex-basis: 25%;
+    background-image: url("/appweb/images/prodPics/fondoProd.png");
+    background-size: cover;
+}
+
+.precio{
+    font-family: 'Raleway', sans-serif;
+}
+.nombreProducto{
+    font-family: 'Sarala', sans-serif;
+}
