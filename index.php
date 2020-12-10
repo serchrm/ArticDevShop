@@ -36,30 +36,34 @@
                 </div>
             </div>
             <h1>Elige tu favorita</h1>
-
         </div>
 
-        <div class="contenedor">
-            <div class="img-accordion">
-                <div class="img img1">
-                    <p>nike potencial 3</p>
-                </div>
-                <div class="img img2">
-                    <p>air jordan 1</p>
-                </div>
-                <div class="img img3">
-                    <p>Air jordan 7 Retro GC</p>
-                </div>
-                <div class="img img4">
-                    <p>air jordan 5</p>
-                </div>
-                <div class="img img5">
-                    <p>nike air max</p>
+        <div id="contPadreMV">
+            <div class="contenedor">
+                <h1 id="subt1">Lo mas vendido</h1>
+                <div class="img-accordion">
+                    <div class="img img1">
+                        <p>nike potencial 3</p>
+                    </div>
+                    <div class="img img2">
+                        <p>air jordan 1</p>
+                    </div>
+                    <div class="img img3">
+                        <p>Air jordan 7 Retro GC</p>
+                    </div>
+                    <div class="img img4">
+                        <p>air jordan 5</p>
+                    </div>
+                    <div class="img img5">
+                        <p>nike air max</p>
+                    </div>
                 </div>
             </div>
         </div>
 
+
         <?php include "appweb/mod/footer.php";?>
+        <script src="appweb/js/mostSelled.js"></script>
         <script src="https://kit.fontawesome.com/791abd0481.js" crossorigin="anonymous"></script>
     </body>
 </html>

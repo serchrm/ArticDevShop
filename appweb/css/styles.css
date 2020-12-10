@@ -122,14 +122,26 @@
 
 /* Productos más vencidos */
 .contenedor {
+    width: 92% !important;
     margin: 0;
-    padding: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
     box-sizing: border-box;
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+#contPadreMV{
+    padding: 5% 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-image: url("/appweb/images/fondoMV.jpeg");
+    background-repeat: no-repeat;
+}
+
 
 .img-accordion {
     width: 90%;
@@ -145,6 +157,7 @@
     transform: skew(10deg);
     cursor: pointer;
     margin: 0 2px;
+    background-color: white;
     transition: all 0.3s;
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,19 +167,15 @@
 }
 
 .img1 {
-    background-image: url("../images/GPU-01.webp");
 }
 
 .img2 {
-    background-image: url("../images/GPU-01.webp");
 }
 
 .img3 {
-    background-image: url("../images/GPU-01.webp");
 }
 
 .img4 {
-    background-image: url("../images/GPU-01.webp");
 }
 
 .img5 {

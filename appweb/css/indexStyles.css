@@ -1,5 +1,6 @@
 #initPage {
     margin: 0 auto;
+    padding-bottom: 4%;
     width: 100%;
     height: 43%;
     display: flex;
@@ -69,6 +70,39 @@
     text-align: center;
     font-size: 5em;
     margin-top: 10px;
+    padding-top: 2%;
     padding-top: 1%;
     padding-bottom: 2%;
+}
+
+#init1{
+    animation-name: animacionInit;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
+}
+
+@keyframes animacionInit {
+    0%{
+        transform: translateX(-300px);
+    }
+    50%{
+        transform: translateX(-100px);
+        transform: scale(1.1);
+    }
+    100%{
+        transform: translateX(0);
+        transform: scale(1);
+    }
+
+}
+
+#subt1{
+    margin-top: 5%;
+    margin-bottom: 0;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 4.3em;
+    color: white;
+    text-shadow: 2px 2px #cccccc;
 }
