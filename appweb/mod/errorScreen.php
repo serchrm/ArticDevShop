@@ -9,14 +9,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/appweb/css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/appweb/css/styleError.css">
+    <link rel="stylesheet" href="/appweb/css/styles.css">
 </head>
 
 <body>
 <?php require_once "../inc/initialconfig.php";?>
 <?php include "header.php" ?>
-<?php
-    echo "Ha ocurrido un error: ".$_GET["error"];
-?>
+<div class="contenedor">
+    <div class="cont-logo">
+        <img src="LogoPrincipal.png" alt="" class="logo">
+    </div>
+    <div class="cont-text">
+        <h2 class="text">!Lo sentimos, ha ocurrido un error!</h2>
+        <p class="error"><?php  echo $_GET["error"];?> :(</p>
+        
+    </div>
+</div>
 <?php include "footer.php";?>
 <script src="https://kit.fontawesome.com/791abd0481.js" crossorigin="anonymous"></script>
 </body>
