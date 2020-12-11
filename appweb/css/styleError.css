@@ -1,0 +1,25 @@
+div.contenedor{
+    display: flex;
+}
+
+img.logo{
+    width: 50%;
+    text-align: center;
+}
+
+div.cont-logo{
+    text-align: center;
+}
+
+div.cont-text{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p.error{
+    text-align: center;
+    font-size: 500%;
+}
