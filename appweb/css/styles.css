@@ -260,6 +260,7 @@ section#preguntas{
     pointer-events: none;
     margin-right: 15px;
     transition: all .25s ease;
+    transform: rotate(135deg);
 }
 
 .open header h3{
@@ -273,7 +274,7 @@ section#preguntas{
 }
 
 .open header .con-icon i{
-    transform: rotate(135deg);
+    transform: rotate(0deg);
 }
 
 .accordion-item h3{

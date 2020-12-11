@@ -21,12 +21,12 @@
                       <i class="fas fa-times"></i>
                   </div>
                   <h3>
-                      How to create a new project?
+                      ¿Que metodos de pago manejan?
                   </h3>
               </header>
               <div class="accordion-content">
                   <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem possimus suscipit harum, tempora distinctio quam tenetur aliquam illo dolorem quaerat saepe voluptatum, beatae temporibus non et blanditiis laudantium sapiente atque.
+                      Puedo pagar depositando en nuestra cuenta de banco o en su OXXO más cercano. 
                   </p>
               </div>
           </div>
@@ -36,12 +36,12 @@
                       <i class="fas fa-times"></i>
                   </div>
                   <h3>
-                      How to create a new project?
+                      ¿Número de núcleos del core i5?
                   </h3>
               </header>
               <div class="accordion-content">
                   <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem possimus suscipit harum, tempora distinctio quam tenetur aliquam illo dolorem quaerat saepe voluptatum, beatae temporibus non et blanditiis laudantium sapiente atque.
+                        El procesador Intel core i5 9a Socket 1151 2.8 Ghz cuenta con 6 núcleos. 
                   </p>
               </div>
           </div>
@@ -51,12 +51,59 @@
                       <i class="fas fa-times"></i>
                   </div>
                   <h3>
-                      How to create a new project?
+                      ¿Qué es BIOS?
                   </h3>
               </header>
               <div class="accordion-content">
                   <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem possimus suscipit harum, tempora distinctio quam tenetur aliquam illo dolorem quaerat saepe voluptatum, beatae temporibus non et blanditiis laudantium sapiente atque.
+                      BIOS son siglas en inglés: Basic Input-Output System o Sistemas básico de entrada y salida.
+                      Viene incorporado con el chip de la placa base, es decir, no es un programa que se encuentre en el disco rigido.
+                      La BIOS almacena la informacion básica de la computadora, guarda los datos del día y la hora, el cache, configuraciones de discos, etc.
+                  </p>
+              </div>
+          </div>
+          <div class="accordion-item">
+              <header onclick="handleClick(event)">
+                  <div class="con-icon">
+                      <i class="fas fa-times"></i>
+                  </div>
+                  <h3>
+                      ¿Los productos cuentan con garantia?
+                  </h3>
+              </header>
+              <div class="accordion-content">
+                  <p>
+                      Todos nuestros productos cuentan con una garantia de hasta 10 años.
+                  </p>
+              </div>
+          </div>
+          <div class="accordion-item">
+              <header onclick="handleClick(event)">
+                  <div class="con-icon">
+                      <i class="fas fa-times"></i>
+                  </div>
+                  <h3>
+                      ¿Cuentan con envío internacional?
+                  </h3>
+              </header>
+              <div class="accordion-content">
+                  <p>
+                      Disponemos de envios a EE.UU, Canadá, Inglaterra, China y Brasil. 
+                  </p>
+              </div>
+          </div>
+          <div class="accordion-item">
+              <header onclick="handleClick(event)">
+                  <div class="con-icon">
+                      <i class="fas fa-times"></i>
+                  </div>
+                  <h3>
+                      ¿Cómo puedo recuperar mi cuenta?
+                  </h3>
+              </header>
+              <div class="accordion-content">
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus nostrum, mollitia distinctio corrupti consequuntur quis dolores culpa! Recusandae eum alias sapiente architecto minus cumque laudantium, incidunt nulla quae! Deleniti, aliquam. 
                   </p>
               </div>
           </div>
