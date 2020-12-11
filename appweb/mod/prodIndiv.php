@@ -42,7 +42,7 @@
                 </div>
                 <div id="contLater">
                     <h1 id="nombProd"><?php echo $namePr; ?></h1>
-                    <p id="precProd">$ <?php echo $precPr;?></p>
+                    <p id="precProd">Desde $ <?php echo $precPr;?></p>
                     <p id="promoProd"><span><img style="color: #97CADB;" src="/appweb/images/iconoFlight.png"></span> Con envíos Artic-Dev recibe tu producto al instante</p>
                     <p id="descrProd"><?php echo $desPr;?></p>
                     <div id="botonCarrito">
