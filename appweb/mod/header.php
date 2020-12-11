@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link h5" href="/index.php">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link h5" href="/index.php">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link h5" href="/appweb/mod/mainShop.php">Tienda</a>
@@ -17,7 +17,7 @@
                 <a class="nav-link h5" href="#">Contactanos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link h5" href="#">Conocenos</a>
+                <a class="nav-link h5" href="/appweb/mod/acercaDe.php">Acerca De</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link h5" href="/appweb/mod/FQA.php">Ayuda</a>
