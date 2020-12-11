@@ -1,0 +1,51 @@
+body{
+    background: url(/appweb/images/fondoAD.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h3{
+    color: white;
+    text-align: center;
+}
+
+div#conocenos{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+div#mision, div#vision, div#objetivo, div#frase{
+    color: white;
+    width: 100%;
+    height: 200px;
+    padding: 2%;
+}
+
+p.text{
+    text-align: center;
+    font-weight: bold;
+}
+
+q{
+    color: white;
+    font-style: italic;
+}
+
+#mision, #objetivo, #conocenos, #vision, #frase{
+    background-color: rgb(0,27,74);
+    border-top: 4px solid rgb(0,68,129);
+    border-bottom: 4px solid rgb(0,68,129);;
+}
+
+#conocenos, #vision, #frase{
+    background-color: rgba(0,68,129,0.3);
+}
+
+#frase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
