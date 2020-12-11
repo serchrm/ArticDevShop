@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbd93108-0f37-444f-9fc1-57bfd956cbc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/appweb/css/prodIndivid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appweb/mod/prodIndiv.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/prodIndiv.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +86,7 @@
       <workItem from="1607643980901" duration="5653000" />
       <workItem from="1607695945200" duration="115000" />
       <workItem from="1607701589488" duration="7114000" />
+      <workItem from="1607709992407" duration="161000" />
     </task>
     <servers />
   </component>

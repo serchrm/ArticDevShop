@@ -20,7 +20,7 @@
         <?php include "header.php" ?>
         <?php
             if (isset($_GET["idProd"])&&!empty($_GET["idProd"])){
-                if ($resQuery = $conexionBD->query("SELECT E.IDProducto AS 'id',E.nombre as 'name',MAX(E.Precio) as 'precio',P.descripcion as 'desc' from existenciaGeneral E JOIN producto P ON (E.IDProducto=P.idProd) WHERE IDProducto=".$_GET["idProd"]." GROUP BY E.IDProducto;")){
+                if ($resQuery = $conexionBD->query("SELECT E.IDProducto AS 'id',E.nombre as 'name',MAX(E.Precio) as 'precio',P.descripcion as 'desc' from existenciaGeneral E JOIN producto P ON (E.IDProducto=P.idProd) WHERE IDProducto=".$_GET["idProd"]." AND E.Existencia>0 GROUP BY E.IDProducto;")){
                     while ($row=$resQuery->fetch_assoc()){
                         $namePr=$row["name"];
                         $idPr=$row["id"];
