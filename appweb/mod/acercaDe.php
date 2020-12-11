@@ -17,18 +17,18 @@
         </div>
         <div id="mision">
             <h3>MISIÓN</h3><br>
-            <p>Ofrecemos productos de alta calidad, procuramos que nuestros clientes esten satisfecho y conctentos con los productos de adquieren.</p>
+            <p class="text">Ofrecemos productos de alta calidad, procuramos que nuestros clientes esten satisfecho y conctentos con los productos de adquieren.</p>
         </div>
         <div id="vision">
             <h3>VISIÓN</h3><br>
-            <p>Ser un referente de calidad y confianza para las personas que decean mejorar, reparar o modernizar su equipos de computo.</p>
+            <p class="text">Ser un referente de calidad y confianza para las personas que decean mejorar, reparar o modernizar sus equipos de computo.</p>
         </div>
         <div id="objetivo">
             <h3>OBJETIVO</h3><br>
-            <p>Consolidarnos como una de las mejores empresas de tecnologia dentro del ambito de la reparacion de equipos de computo asi como el mundo del gaming</p>
+            <p class="text">Consolidarnos como una de las mejores empresas de tecnologia dentro del ambito de la reparacion de equipos de computo asi como el mundo del gaming.</p>
         </div>
         <div id="frase">
-            <p><q>Nunca te das cuenta de lo que has hecho; sólo puedes ver lo que queda por hacer. (Marie Curie)</q></p>
+            <p class="text"><q>Nunca te das cuenta de lo que has hecho; sólo puedes ver lo que queda por hacer. (Marie Curie)</q></p>
         </div>
     <?php include "footer.php";?>
 </body>

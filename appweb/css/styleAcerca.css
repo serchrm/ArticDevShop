@@ -24,7 +24,7 @@ div#mision, div#vision, div#objetivo, div#frase{
     padding: 2%;
 }
 
-p{
+p.text{
     text-align: center;
     font-weight: bold;
 }
