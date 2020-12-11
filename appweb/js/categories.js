@@ -10,14 +10,22 @@ const funcionCambio = ()=>{
     }else{
         let acum=0;
         let indicador=0;
+        let band=true;
         for (let checkbx of camposCateg){
             if (checkbx.checked===true){
+                band=false;
                 acum++;
                 requestData+=("cat"+indicador+"="+checkbx.value+"&");
                 indicador++;
             }
         }
-        requestData+="total="+acum;
+        if (band){
+            campoTodos.checked=true;
+            requestData="total=all";
+        }else{
+            requestData+="total="+acum;
+        }
+
     }
     let peticion = new XMLHttpRequest();
 
@@ -48,7 +56,6 @@ const funcionCambio = ()=>{
                 divProd.append(imagen);
                 divProd.append(subt);
                 divProd.append(precio);
-
 
             }
 

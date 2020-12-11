@@ -63,7 +63,7 @@
 
 
         <?php include "appweb/mod/footer.php";?>
-        <script src="appweb/js/mostSelled.js"></script>
+        <script src="/appweb/js/mostSelled.js"></script>
         <script src="https://kit.fontawesome.com/791abd0481.js" crossorigin="anonymous"></script>
     </body>
 </html>
