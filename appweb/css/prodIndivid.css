@@ -1,0 +1,88 @@
+#contenedorPadre{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-image: url("/appweb/images/fondoMV.jpeg");
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-content: center;
+}
+
+#contCentral{
+    width: 90%;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 6px #cccccc;
+    background-color: rgba(255,255,255,0.7);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#contenImagen{
+    flex-grow: 1;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#contLater{
+    flex-grow: 1;
+    flex-basis: 40%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+
+}
+
+#nombProd{
+    font-family: 'Arvo', serif;
+    margin-bottom: 3%;
+    text-align: left;
+    color: #004481;
+}
+
+#precProd{
+    font-family: 'Arvo', serif;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    font-size: 1.8em;
+}
+
+#promoProd{
+    margin-top: 3%;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#descrProd{
+    margin-top: 1%;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.4em;
+}
+
+#botonCarrito{
+    width: 23%;
+    border-radius: 20px;
+    color: #004481;
+    background-color: #97CADB;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    transition: all 200ms;
+}
+
+#botonCarrito:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: black;
+}
+
+
+#botonCarrito>p{
+    padding: 10px 7px;
+    align-self: center;
+    margin: 0;
+    font-size: 1.2em;
+}
