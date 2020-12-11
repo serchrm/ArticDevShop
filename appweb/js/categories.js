@@ -38,21 +38,25 @@ const funcionCambio = ()=>{
 
             areaGeneral.innerHTML="";
             for (let producto of arrayProductos){
+                let hipervinc = document.createElement("a");
                 let divProd=document.createElement("div");
                 let imagen=document.createElement("img");
                 let subt =document.createElement("h3");
                 let precio = document.createElement("p");
+                hipervinc.href="/appweb/mod/prodIndiv.php?idProd="+producto["IDProducto"];
+
                 precio.className="precio";
                 precio.innerText="$"+producto["Precio"];
                 subt.className="nombreProducto";
                 subt.innerText=producto["nombre"];
-                divProd.className="prod-container";
                 imagen.className="img-prod";
                 ///appweb/images/prodPics/".$row["IDProducto"].".png'
                 imagen.src="/appweb/images/prodPics/"+producto["IDProducto"]+".png";
                 imagen.width=300;
                 imagen.height=250;
-                areaGeneral.append(divProd);
+                hipervinc.className="prod-container";
+                areaGeneral.append(hipervinc);
+                hipervinc.append(divProd);
                 divProd.append(imagen);
                 divProd.append(subt);
                 divProd.append(precio);

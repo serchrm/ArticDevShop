@@ -37,6 +37,10 @@
   flex-wrap:wrap;
   justify-content:center;
 }
+a{
+    display: block;
+}
+
 .prod-container{
     -webkit-box-shadow: -1px 45px 43px -43px rgba(0,0,0,0.44);
 -moz-box-shadow: -1px 45px 43px -43px rgba(0,0,0,0.44);
