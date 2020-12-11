@@ -35,6 +35,7 @@ if ($queryProd=$conexionBD->query("SELECT EG.IDProducto,EG.nombre,EG.Precio,P.id
             //Contenedor tarjeta de producto
             //ACCION A REALIZAR
             $arrayasoc[$indicAsoc]=$row;
+            $indicAsoc++;
         }else{
             if (!($anterior["IDProducto"]===$row["IDProducto"])){
                 $anterior=$row;

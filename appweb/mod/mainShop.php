@@ -81,7 +81,6 @@
 </div>
 
 <?php include "footer.php";?>
-
 <script src="https://kit.fontawesome.com/791abd0481.js" crossorigin="anonymous"></script>
 <script src="/appweb/js/categories.js"></script>
 </body>

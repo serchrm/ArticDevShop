@@ -66,6 +66,7 @@ const funcionCambio = ()=>{
         }
     }
 
+    console.log(requestData);
     peticion.open ("GET","/appweb/responses/categResponse.php?"+requestData);
     peticion.send();
 
