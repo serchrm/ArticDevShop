@@ -138,8 +138,11 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    background-image: url("/appweb/images/fondoMV.jpeg");
+    background-image: url("/appweb/images/fondoMV.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 
