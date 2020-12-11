@@ -18,7 +18,7 @@
 <?php include "header.php" ?>
 <div class="contenedor">
     <div class="cont-logo">
-        <img src="LogoPrincipal.png" alt="" class="logo">
+        <img src="/appweb/images/LogoPrincipal.png" alt="" class="logo">
     </div>
     <div class="cont-text">
         <h2 class="text">!Lo sentimos, ha ocurrido un error!</h2>
