@@ -18,7 +18,7 @@ div.contenedor{
 }
 
 body{
-    background: url(prueba3.jpg) no-repeat center center fixed;
+    background: url(/appweb/images/fondoAD.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 

@@ -13,25 +13,28 @@
 <body>
 <?php require_once "../inc/initialconfig.php";?>
 <?php include "header.php" ?>
+<div class="contenedor">
+    <div class="login">
+        <form method="post" action="/appweb/mod/registroLogica.php" id="formRegistro">
+            <label for="nickname">Nickname:</label><br>
+            <input id="nickname" required name="nombUsuar" type="text"><br>
+            <label for="correo">Correo:</label><br>
+            <input id="correo" required name="emailReg" type="email"><br>
+            <label for="nombre">Nombre Completo:</label><br>
+            <input id="nombre" type="text" required name="nombCompReg"><br>
+            <label for="contras">Contraseña:</label><br>
+            <input id="contras" required name="contrasReg" type="password"><br>
+            <label for="contrasVer">Ingrese nuevamente su contraseña:</label><br>
+            <input id="contrasVer" required type="password"><br><br>
+            <p id="avisos">Soy el apartado de avisos</p><br>
 
-<form method="post" action="/appweb/mod/registroLogica.php" id="formRegistro">
-    <label for="nickname">Nickname</label>
-    <input id="nickname" required name="nombUsuar" type="text">
-    <label for="correo" >Correo</label>
-    <input id="correo"  required name="emailReg" type="email">
-    <label for="nombre">Nombre Completo</label>
-    <input id="nombre" type="text" required name="nombCompReg">
-    <label for="contras">Contraseña</label>
-    <input id="contras" required name="contrasReg" type="password">
-    <label for="contrasVer">Ingrese nuevamente su contraseña</label>
-    <input id="contrasVer" required type="password">
-    <p id="avisos">Soy el apartado de avisos</p>
-
-    <button type="button" id="botonRegist">Registrar</button>
-</form>
-
-
-
+            <button type="button" id="botonRegist">Registrar</button>
+        </form>
+    </div>
+    <div class="imagen">
+        <img src="ejemplo.jpg" alt="">
+    </div>
+</div>
 <?php include "footer.php";?>
 <script src="/appweb/js/registro.js"></script>
 <script src="https://kit.fontawesome.com/791abd0481.js" crossorigin="anonymous"></script>
