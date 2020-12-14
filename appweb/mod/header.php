@@ -14,7 +14,7 @@
                 <a class="nav-link h5" href="/appweb/mod/mainShop.php">Tienda</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link h5" href="#">Contactanos</a>
+                <a class="nav-link h5" href="/appweb/mod/contactanos.php">Contactanos</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link h5" href="/appweb/mod/acercaDe.php">Acerca De</a>
