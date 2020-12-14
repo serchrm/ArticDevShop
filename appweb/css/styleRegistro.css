@@ -1,3 +1,8 @@
+input:focus{
+    outline: none;
+    border: 2px solid #cccccc;
+}
+
 body{
     background: url(/appweb/images/fondoAD.jpg) no-repeat center center fixed;
     background-size: cover;

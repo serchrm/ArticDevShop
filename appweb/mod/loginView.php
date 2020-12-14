@@ -17,7 +17,7 @@
 
  <div class="contenedor">
         <div class="imagen">
-            <img src="ejemplo.jpg" alt="">
+            <img src="/appweb/images/ejemplo.jpg" alt="">
         </div>
         <div class="login">
             <form>
