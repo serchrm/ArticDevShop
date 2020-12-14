@@ -25,7 +25,7 @@
             <input id="correo" type="email"><br>
             <label for="contras">Contraseña:</label><br>
             <input id="contras" type="password"><br><br>
-            <img src="/appweb/images/LogoPrincipal.png" id="imagenCaptcha"><br><br>
+            <img id="imagenCaptcha"><br><br>
             <button type="submit" id="btn">Iniciar Sesión</button><br><br>
             <a href="/appweb/mod/registerView.php">¿Aun no tienes cuenta? Presiona aquí</a><br>
             <a href="#">¿Olvidaste tu contraseña?</a>
