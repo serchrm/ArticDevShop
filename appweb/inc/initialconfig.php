@@ -20,3 +20,5 @@
         die();
     }
 
+    session_start();
+
