@@ -19,14 +19,14 @@
     <input id="correo" type="email">
     <label for="contras">Contraseña</label>
     <input id="contras" type="password">
+    <img src="" id="imagenCaptcha">
     <button type="submit">Iniciar Sesión</button>
     <a href="/appweb/mod/registerView.php">¿Aun no tienes cuenta? Presiona aquí</a>
     <a href="#">¿Olvidaste tu contraseña?</a>
 </form>
 
-
-
 <?php include "footer.php";?>
+<script src="/appweb/js/login.js"></script>
 <script src="https://kit.fontawesome.com/791abd0481.js" crossorigin="anonymous"></script>
 </body>
 

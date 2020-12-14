@@ -20,14 +20,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbd93108-0f37-444f-9fc1-57bfd956cbc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/appweb/js/registro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appweb/mod/loginView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appweb/mod/registerView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appweb/mod/registroLogica.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appweb/responses/regValidation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appweb/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appweb/mod/Captcha.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appweb/otherResources/font.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ArticDevShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ArticDevShop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/css/indexStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/css/indexStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/css/mainShopStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/css/mainShopStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/css/prodIndivid.css" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/css/prodIndivid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/css/styleAcerca.css" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/css/styleAcerca.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/css/styleError.css" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/css/styleError.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/660M.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/660M.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/GPU-01.webp" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/GPU-01.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/IMG_5236.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/IMG_5236.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/LogoPrincipal.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/LogoPrincipal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/Test-GPU.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/Test-GPU.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/carticon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/carticon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/fondoAD.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/fondoAD.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/fondoMV.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/fondoMV.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/fondoMV.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/fondoMV.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/gorjeo.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/gorjeo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/iconoFlight.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/iconoFlight.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/instagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/logoNav.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/logoNav.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/prodPics/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/prodPics/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/prodPics/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/prodPics/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/prodPics/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/prodPics/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/prodPics/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/prodPics/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/prodPics/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/prodPics/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/prodPics/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/prodPics/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/prodPics/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/prodPics/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/prodPics/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/prodPics/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/prodPics/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/prodPics/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/prodPics/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/prodPics/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/prodPics/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/prodPics/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/prodPics/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/prodPics/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/prodPics/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/prodPics/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/prodPics/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/prodPics/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/prodPics/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/prodPics/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/prodPics/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/prodPics/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/prodPics/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/prodPics/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/prodPics/fondoProd.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/prodPics/fondoProd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/promo1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/promo1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/promo2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/promo2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/promo3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/promo3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/texturaBlanca.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/texturaBlanca.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/images/texturaGris.png" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/texturaGris.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appweb/inc/initialconfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/inc/initialconfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/inc/tools.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/inc/tools.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/js/categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/js/categories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/js/mostSelled.js" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/js/mostSelled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/js/registro.js" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/js/registro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/mod/FQA.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/FQA.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/mod/acercaDe.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/acercaDe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/mod/errorScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/errorScreen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/mod/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appweb/mod/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/mod/loginView.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/loginView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/mod/mainShop.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/mainShop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/mod/prodIndiv.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/prodIndiv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/mod/registerView.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/registerView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/mod/registroLogica.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/registroLogica.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/mod/viewedResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/viewedResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/responses/categResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/responses/categResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/responses/regValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/responses/regValidation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +119,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/appweb/otherResources" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/appweb/otherResources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/appweb/mod" />
       <recent name="$PROJECT_DIR$/appweb/responses" />
@@ -99,6 +166,8 @@
       <workItem from="1607713187294" duration="42000" />
       <workItem from="1607735904140" duration="147000" />
       <workItem from="1607903902854" duration="7208000" />
+      <workItem from="1607914794669" duration="6636000" />
+      <workItem from="1607922074077" duration="10000" />
     </task>
     <servers />
   </component>
@@ -126,11 +195,11 @@
       <screen x="74" y="44" width="1846" height="1036" />
     </state>
     <state x="747" y="281" width="489" height="567" key="NewPhpClassDialog/74.44.1846.1036@74.44.1846.1036" timestamp="1607907185344" />
-    <state x="792" y="488" width="379" height="145" key="NewPhpFileDialog" timestamp="1607907199276">
+    <state x="792" y="488" width="379" height="145" key="NewPhpFileDialog" timestamp="1607915875212">
       <screen x="74" y="44" width="1846" height="1036" />
     </state>
     <state x="1020" y="627" width="379" height="145" key="NewPhpFileDialog/72.28.1848.1052@72.28.1848.1052" timestamp="1607646977754" />
-    <state x="792" y="488" width="389" height="155" key="NewPhpFileDialog/74.44.1846.1036@74.44.1846.1036" timestamp="1607907199276" />
+    <state x="792" y="488" width="389" height="155" key="NewPhpFileDialog/74.44.1846.1036@74.44.1846.1036" timestamp="1607915875212" />
     <state x="486" y="197" width="1022" height="736" key="SettingsEditor" timestamp="1607298062397">
       <screen x="74" y="44" width="1846" height="1036" />
     </state>
