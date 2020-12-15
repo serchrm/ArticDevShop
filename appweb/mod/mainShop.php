@@ -61,7 +61,7 @@
                 echo "<div >";
                     echo "<img class='img-prod' src = '/appweb/images/prodPics/1.png' width='300' height='250' >";
                 echo "<h3 class='nombreProducto'>" .$row["nombre"]."</h3>";
-                echo "<p class='precio'>" .$row["Precio"]."</p> </div>";
+                echo "<p class='precio'> $" .$row["Precio"]."</p> </div>";
                 echo "</a>";
             }else{
                 if (!($anterior["IDProducto"]===$row["IDProducto"])){
@@ -70,7 +70,7 @@
                     echo "<div >";
                     echo "<img class='img-prod' src = '/appweb/images/prodPics/".$row["IDProducto"].".png' width='300' height='250' >";
                     echo "<h3 class='nombreProducto'>" .$row["nombre"]."</h3>";
-                    echo "<p class='precio'>" .$row["Precio"]."</p> </div>";
+                    echo "<p class='precio'> $" .$row["Precio"]."</p> </div>";
                     echo "</a>";
                 }
             }
