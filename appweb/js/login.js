@@ -11,11 +11,9 @@ const generarCaptcha = ()=>{
     let solicitud = new XMLHttpRequest();
     solicitud.onreadystatechange=()=>{
         if(solicitud.readyState==4&&solicitud.status==200){
-            let nuevaImagen=document.createElement("img");
-            nuevaImagen.src="../otherResources/imagenCaptcha.jpeg";
-            document.querySelector(".captcha").removeChild(document.querySelector("#imagenCaptcha"));
-            nuevaImagen.id="imagenCaptcha";
-            document.querySelector(".captcha").append(nuevaImagen);
+            let nuevaImagen=document.querySelector("#imagenCaptcha");
+            nuevaImagen.src="../otherResources/imagenCaptcha.jpeg?date="+Date.now();
+            console.log("hello");
         }
     }
     solicitud.open("GET","../mod/Captcha.php",true);
