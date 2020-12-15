@@ -1,6 +1,6 @@
 <?php
-    define ("USER_DB","moy");
-    define("NAME_DB","shop");
+    define ("USER_DB","u282806625_moy");
+    define("NAME_DB","u282806625_shop");
     define("PASS_DB","Ddefec25bd");
     define("SERVER_DB","localhost");
     define("DEBUG",true);

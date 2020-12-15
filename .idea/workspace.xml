@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbd93108-0f37-444f-9fc1-57bfd956cbc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/appweb/mod/loginLogic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appweb/responses/veriffyCaptcha.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appweb/images/fondoIzq.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/fondoIzq.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appweb/images/fondoLogin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/images/fondoLogin.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appweb/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appweb/js/registro.js" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/js/registro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appweb/mod/loginView.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/loginView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/inc/initialconfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/inc/initialconfig.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appweb/otherResources/imagenCaptcha.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/otherResources/imagenCaptcha.jpeg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +104,7 @@
       <workItem from="1607982350993" duration="151000" />
       <workItem from="1607984046483" duration="381000" />
       <workItem from="1607998705342" duration="460000" />
-      <workItem from="1608001601450" duration="4150000" />
+      <workItem from="1608001601450" duration="5349000" />
     </task>
     <servers />
   </component>
