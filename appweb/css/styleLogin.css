@@ -62,11 +62,21 @@ label[for="correo"]{
     margin-bottom: 25px;
 }
 .login button{
-    display: block;
+   
     text-align: center;
-    margin: auto;
+}
+#textFieldCaptcha{
+    margin: auto !important;
+    margin-bottom: 25px !important;
+}
+form button{
+    text-decoration: none;
+}
+.login form .captcha{
+    display: inline !important;
 }
 a{
+    margin-bottom: 0 !important;
     color: white;
     text-decoration: none;
 }

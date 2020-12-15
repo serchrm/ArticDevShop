@@ -8,6 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/appweb/css/styles.css">
     <link rel="stylesheet" href="/appweb/css/styleLogin.css">
+    <script src="https://kit.fontawesome.com/66b3831846.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -17,20 +18,32 @@
 
  <div class="contenedor">
         
-            <img class="imagen" src="/appweb/images/fondoIzq.jpg" alt="" style="height: 500px">
+            <img class="imagen" src="/appweb/images/fondoIzq.jpg" alt="" style="height: 650px">
         
         <div class="login">
             <form>
             <label for="correo">Inicia Sesión</label><br>
-            <input class="form-control form-control-sm" id="correo" placeholder="Usuario" type="email">
-            <input id="contras" class="form-control form-control-sm" placeholder="Contrase;a" type="password">
-            <img id="imagenCaptcha">
+            <input class="form-control form-control-sm" id="correo" placeholder="Usuario" type="email" require>
+            <input id="contras" class="form-control form-control-sm" placeholder="Contrase;a" type="password" require>
+            
+            <div class="captcha">
+                <img id="imagenCaptcha"> <span> <button type="submit" class="btn btn-success"><i class="fas fa-sync-alt"></i></button> </span> 
+            </div>
+            
+            <input  id="textFieldCaptcha" class="form-control form-control-sm w-50" placeholder="Ingrese captcha" type="text"  require>
+
             <button class="btn btn-primary" type="submit">Ingresar</button>
+
         </form>
-        <a href="/appweb/mod/registerView.php"> ¿Aun no tienes cuenta? Presiona aquí</a><br>
-            <a href="#">¿Olvidaste tu contraseña?</a>
+        <div>
+        <a href="/appweb/mod/registerView.php"> ¿Aun no tienes cuenta? Presiona aquí</a> <br>
+            <a href="#">¿Olvidaste tu contraseña?</a>   
         </div>
+        
+        </div>
+        
     </div>
+    
 
 <?php include "footer.php";?>
 <script src="/appweb/js/login.js"></script>
