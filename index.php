@@ -64,18 +64,18 @@
             <h1 id="subHow">Como comprar?</h1>
             <div class="step">
                 <h2 class="subStep">Paso #1</h2>
-                <i class="fas fa-cart-plus fa-10x" ></i>
-                <h3 class="subStep">Anade a tu carrito los productos deseados</h3>
+                <i class="fas fa-cart-plus fa-8x" ></i>
+                <h4 class="subStep">Anade a tu carrito los productos deseados</h4>
             </div>
             <div class="step">
                 <h2 class="subStep">Paso #2</h2>
-                <i class="far fa-credit-card fa-10x"></i>
-                <h3 class="subStep">Selecciona completar compra, llena tus datos y selecciona tu metodo de forma de pago</h3>
+                <i class="far fa-credit-card fa-8x"></i>
+                <h4 class="subStep">Selecciona completar compra, llena tus datos y selecciona tu metodo de forma de pago</h4>
             </div>
             <div class="step">
                 <h2 class="subStep">Paso #3</h2>
-                <i class="fas fa-shipping-fast fa-10x   "></i>
-                <h3 class="subStep">Elige tu metodo de envio  y solo queda esperar.</h3>
+                <i class="fas fa-shipping-fast fa-8x   "></i>
+                <h4 class="subStep">Elige tu metodo de envio  y solo queda esperar.</h4>
             </div>
         </div>
 

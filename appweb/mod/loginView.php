@@ -16,20 +16,19 @@
 <?php include "header.php" ?>
 
  <div class="contenedor">
-        <div class="imagen">
-            <img src="/appweb/images/ejemplo.jpg" alt="">
-        </div>
+        
+            <img class="imagen" src="/appweb/images/fondoIzq.jpg" alt="" style="height: 500px">
+        
         <div class="login">
             <form>
-            <label for="correo">Correo:</label><br>
-            <input id="correo" type="email"><br>
-            <label for="contras">Contraseña:</label><br>
-            <input id="contras" type="password"><br><br>
-            <img id="imagenCaptcha"><br><br>
-            <button type="submit" id="btn">Iniciar Sesión</button><br><br>
-            <a href="/appweb/mod/registerView.php">¿Aun no tienes cuenta? Presiona aquí</a><br>
-            <a href="#">¿Olvidaste tu contraseña?</a>
+            <label for="correo">Inicia Sesión</label><br>
+            <input class="form-control form-control-sm" id="correo" placeholder="Usuario" type="email">
+            <input id="contras" class="form-control form-control-sm" placeholder="Contrase;a" type="password">
+            <img id="imagenCaptcha">
+            <button class="btn btn-primary" type="submit">Ingresar</button>
         </form>
+        <a href="/appweb/mod/registerView.php"> ¿Aun no tienes cuenta? Presiona aquí</a><br>
+            <a href="#">¿Olvidaste tu contraseña?</a>
         </div>
     </div>
 
