@@ -15,24 +15,24 @@
 <body>
 <?php require_once "../inc/initialconfig.php";?>
 <?php include "header.php" ?>
-
  <div class="contenedor">
         
             <img class="imagen" src="/appweb/images/fondoIzq.jpg" alt="" style="height: 650px">
         
         <div class="login">
-            <form>
+        <form id="formularioLogin" action="loginLogic.php" method="post">
             <label for="correo">Inicia Sesión</label><br>
             <input class="form-control form-control-sm" id="correo" placeholder="Usuario" type="email" require>
-            <input id="contras" class="form-control form-control-sm" placeholder="Contrase;a" type="password" require>
+            <input id="contras" class="form-control form-control-sm" placeholder="Contraseña" type="password" require>
             
             <div class="captcha">
-                <img id="imagenCaptcha"> <span> <button type="submit" class="btn btn-success"><i class="fas fa-sync-alt"></i></button> </span> 
+                <img id="imagenCaptcha"> <span> <button type="button" id="refreshCaptcha" class="btn btn-success"><i class="fas fa-sync-alt"></i></button> </span>
             </div>
-            
+
             <input  id="textFieldCaptcha" class="form-control form-control-sm w-50" placeholder="Ingrese captcha" type="text"  require>
 
-            <button class="btn btn-primary" type="submit">Ingresar</button>
+            <button class="btn btn-primary" id="botonSubmit" type="button">Ingresar</button>
+            <p id="avisos">Hola soy campo de avisos</p>
 
         </form>
         <div>
