@@ -39,6 +39,17 @@
 }
 a{
     display: block;
+    text-decoration: none !important;
+    color: #312b2b;
+}
+
+.prod-container:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    background-color: white;
+    -webkit-box-shadow: -2px 10px 70px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 10px 70px -16px rgba(0,0,0,0.75);
+    box-shadow: -2px 10px 70px -16px rgba(0,0,0,0.75);
 }
 
 .prod-container{
@@ -51,8 +62,10 @@ box-shadow: -1px 45px 43px -43px rgba(0,0,0,0.44);
    text-align: center;
     margin: 1rem;
     flex-basis: 25%;
-    background-image: url("/appweb/images/prodPics/fondoProd.png");
+    background-color: rgba(65, 131, 215, 1);
+   // background-image: url("/appweb/images/prodPics/fondoProd.png");
     background-size: cover;
+    transition: 300ms all;
 }
 
 .precio{

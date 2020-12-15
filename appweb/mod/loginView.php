@@ -27,7 +27,7 @@
             <input id="contras" class="form-control form-control-sm" placeholder="Contrase;a" type="password" require>
             
             <div class="captcha">
-                <img id="imagenCaptcha"> <span> <button type="submit" class="btn btn-success"><i class="fas fa-sync-alt"></i></button> </span> 
+                <img id="imagenCaptcha"> <button type="submit" class="btn btn-success"><i class="fas fa-sync-alt"></i></button> </span> 
             </div>
             
             <input  id="textFieldCaptcha" class="form-control form-control-sm w-50" placeholder="Ingrese captcha" type="text"  require>
