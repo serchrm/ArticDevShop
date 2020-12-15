@@ -20,7 +20,7 @@ botonRegis.addEventListener("click",()=>{
                 peticion.send();
                 if (peticion.responseText=="true"){
                     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                    if (!re.test(emailVer.value.trim().toUpperCase())){
+                    if (!re.test(emailVer.value.trim().toLowerCase())){
                         avisos.innerHTML="Favor de verificar el campo email";
                     }else{
                         document.querySelector("#formRegistro").submit();
