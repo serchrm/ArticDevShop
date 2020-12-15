@@ -1,42 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Sarala:wght@700&display=swap');
+
 input:focus{
     outline: none;
     border: 3px solid gray;
 }
 
 body{
-    background: url(/appweb/images/fondoAD.jpg) no-repeat center center fixed;
-    background-size: cover;
+   // background: url(/appweb/images/fondoLogin.jpg) no-repeat center center fixed;
+   // background-size: cover;
+   background-color: white;
 }
 
 div.contenedor{
+    margin: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-left: 4%;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    align-content: stretch;
     padding: 7em 0 7em 0;
+    
 }
 
 .login{
-    background-color: rgba(0,68,126,0.8);
+    flex-basis: 30%;
+    background-color: rgba(0,68,126,0.9);
     text-align: center;
     padding: 2em;
     border-radius: 0 20px 20px 0;
     border-left: 2px solid rgb(0,139,190);
     color: white;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center !important;
+    align-items: center;
+    align-self: stretch;
+    -webkit-box-shadow: 3px 10px 39px -8px rgba(0,0,0,0.62);
+-moz-box-shadow: 3px 10px 39px -8px rgba(0,0,0,0.62);
+box-shadow: 3px 10px 39px -8px rgba(0,0,0,0.62);
 }
 
-.imagen img{
-    width: 322px;
-    height: 386px;
+ .imagen{
+    flex-basis: 40%;
     border-radius: 20px 0 0 20px;
+    align-self: stretch;
     border-right: 2px solid rgb(0,139,190);
+    -webkit-box-shadow: 3px 10px 39px -8px rgba(0,0,0,0.62);
+-moz-box-shadow: 3px 10px 39px -8px rgba(0,0,0,0.62);
+box-shadow: 3px 10px 39px -8px rgba(0,0,0,0.62);
 }
-
+label[for="correo"]{
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+}
 #imagenCaptcha{
     width: 110px;
     height: 60px;
 }
-
+.login form *{
+    flex-basis: 100%;
+    margin-bottom: 25px;
+}
+.login button{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
 a{
     color: white;
     text-decoration: none;
@@ -49,7 +78,6 @@ a:hover{
 
 #btn{
     width: 70%;
-    border-radius: 15px;
     border: 1px solid black;
     background-color: rgb(0,27,72);
     color: white;
@@ -57,7 +85,6 @@ a:hover{
 
 input{
     width: 70%;
-    border-radius: 15px;
     border: 1px solid black;
 }
 
