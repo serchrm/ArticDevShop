@@ -98,5 +98,22 @@ input{
     border: 1px solid black;
 }
 
-
+@media (max-width:800px){
+    div.contenedor{
+        flex-direction: column;
+    }
+    
+    .login{
+        border-radius: 0 0 20px 20px;
+        border-top: 2px solid rgb(0,139,190);
+        border-left: 0;
+        width: 322px;
+    }
+    
+    .imagen img{
+        border-radius: 20px 20px 0 0;
+        border-bottom: 2px solid rgb(0,139,190);
+        border-right: 0;
+    }
+}
 
