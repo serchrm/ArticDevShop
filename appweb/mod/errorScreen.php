@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
 <head>
     <title>ArticDev Shop</title>
     <meta charset="UTF-8">

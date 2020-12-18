@@ -1,0 +1,137 @@
+#foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid white;
+}
+.imgPro{
+    margin: 3%;
+    width: 4em;
+    height: 6em;
+}
+
+body{
+    background: url(/appweb/images/fondoAD.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+table{
+    margin: 5%;
+}
+
+th{
+    text-align: center;
+}
+
+.contenedor{
+    background-color: rgba(0,68,126,0.8);
+    margin: 5%;
+    border-radius: 20px;
+}
+
+input{
+    margin: 1em;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 100%;
+    text-align: center;
+}
+
+.contenido tr td{
+    padding: 3%;
+} 
+
+button#eliminar{
+    font-family: 'FontAwesome';
+    border: 1px solid rgb(239,239,239);
+    width: 50px;
+    margin: 50px;
+    border-radius: 15px;
+}
+
+button#eliminar:hover{
+    background-color: dimgray;
+    border: 1px solid dimgray;
+}
+
+p#total{
+    margin-top: 2%;
+    float: right;
+    color: white;
+    font-size: 2em;
+}
+tr.contenido, tr.cabecera, tr.contenido td, tr.cabecera th{
+    border: 2px solid rgb(151,202,219);
+    border-collapse: collapse;
+    color: white;
+}
+
+#seguir,#comprar,#vaciar{
+    font-family: 'FontAwesome';
+    border-radius: 5px;
+    
+}
+
+#comprar{
+    float: right;
+    background-color: rgb(0,27,72);
+    padding: 2%;
+    border: 1px solid black;
+    color: white;
+}
+
+#seguir{
+    background-color: rgb(222,232,241);
+    border: 1px solid rgb(222,232,241);
+    padding: 1%;
+}
+
+#vaciar{
+    background-color: rgb(0,139,188);
+    border: 1px solid rgb(0,139,188);
+    padding: 1%;
+    margin-left: 2%;
+}
+
+@media (max-width:1100px){
+    table{
+        width: 800px;
+    }
+    .contenedor{
+        margin: 2%;
+        width: 850px;
+    }
+}
+
+@media (max-width:900px){
+    table{
+        width:600px; 
+    }
+    
+    .contenedor{
+        width: 650px;
+    }
+}
+
+@media (max-width:700px){
+    table{
+        width: 300px;
+        font-size: 1em;
+    }
+    .contenedor{
+        width: 450px;
+    }
+    
+    #vaciar{
+        margin-left: 10px;
+    }
+    
+    #seguir{
+        margin-left: 20px;
+    }
+    
+    #eliminar{
+        margin:0px;
+        width: 20px;
+    }
+}

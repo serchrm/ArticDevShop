@@ -37,7 +37,7 @@
   flex-wrap:wrap;
   justify-content:center;
 }
-a{
+a.prod-container{
     display: block;
     text-decoration: none !important;
     color: #312b2b;

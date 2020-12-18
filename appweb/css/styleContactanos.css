@@ -74,9 +74,48 @@ label[for=correo],[for=msj],[for=asunto]{
 #msj{
     border-radius: 15px;
     border: 1px solid black;
-    /*display: block;*/
 }
 
 #fra{
     border-radius: 0 20px 20px 0;
+}
+
+@media (max-width:1200px){
+    .contenedor{
+        flex-direction: column;
+    }
+    
+    div.contacto{
+        width: 600px;
+        border-radius: 20px 20px 0 0;
+    }
+    
+    #fra{
+        border-radius: 0 0 20px 20px;
+    }
+    
+    .contenedor2 p{
+        text-align: center;
+    }
+}
+
+@media (max-width:800px){
+    .contenedor{
+        flex-direction: column;
+    }
+    
+    div.contacto{
+        width: 400px;
+        border-radius: 20px 20px 0 0;
+    }
+    
+    #fra{
+        width: 400px;
+        border-radius: 0 0 20px 20px;
+    }
+    
+    .contenedor2 p{
+        text-align: center;
+    }
+    
 }
