@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbd93108-0f37-444f-9fc1-57bfd956cbc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/appweb/mod/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appweb/mod/FQA.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/FQA.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appweb/mod/acercaDe.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/acercaDe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appweb/mod/contactanos.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/contactanos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appweb/mod/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appweb/mod/loginLogic.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/loginLogic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appweb/mod/loginView.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/loginView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appweb/otherResources/imagenCaptcha.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/otherResources/imagenCaptcha.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/mod/registroLogica.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/registroLogica.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +105,7 @@
       <workItem from="1608001601450" duration="5969000" />
       <workItem from="1608045192085" duration="507000" />
       <workItem from="1608344318773" duration="4445000" />
+      <workItem from="1608348961108" duration="71000" />
     </task>
     <servers />
   </component>
