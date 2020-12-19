@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="/appweb/css/styleContactanos.css">
 </head>
 <body>
+    <?php require "../inc/initialconfig.php"?>
     <?php include "header.php" ?>
+
     <div class="contenedor">
         <div class="contacto">
             <form action="" id="contactanos">

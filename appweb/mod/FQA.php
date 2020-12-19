@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
 </head>
 <body>
-    <?php require "header.php"?>
-  <section id="preguntas">
+<?php require "../inc/initialconfig.php"?>
+<?php include "header.php" ?>
+
+<section id="preguntas">
      <h1 id="title">Preguntas Frecuentes</h1>
       <div class="con-accordion">
           <div class="accordion-item">

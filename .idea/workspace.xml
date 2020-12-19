@@ -20,8 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbd93108-0f37-444f-9fc1-57bfd956cbc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/appweb/mod/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appweb/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/mod/FQA.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/FQA.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/mod/acercaDe.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/acercaDe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/mod/contactanos.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/contactanos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/mod/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/mod/loginLogic.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/loginLogic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb/mod/loginView.php" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/mod/loginView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appweb/otherResources/imagenCaptcha.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/appweb/otherResources/imagenCaptcha.jpeg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +112,7 @@
       <workItem from="1607998705342" duration="460000" />
       <workItem from="1608001601450" duration="5969000" />
       <workItem from="1608045192085" duration="507000" />
+      <workItem from="1608344318773" duration="4445000" />
     </task>
     <servers />
   </component>
@@ -133,11 +140,11 @@
       <screen x="74" y="44" width="1846" height="1036" />
     </state>
     <state x="747" y="281" width="489" height="567" key="NewPhpClassDialog/74.44.1846.1036@74.44.1846.1036" timestamp="1607907185344" />
-    <state x="792" y="488" width="379" height="145" key="NewPhpFileDialog" timestamp="1608006255365">
+    <state x="792" y="488" width="379" height="145" key="NewPhpFileDialog" timestamp="1608347666864">
       <screen x="74" y="44" width="1846" height="1036" />
     </state>
     <state x="1020" y="627" width="379" height="145" key="NewPhpFileDialog/72.28.1848.1052@72.28.1848.1052" timestamp="1607646977754" />
-    <state x="792" y="488" width="389" height="155" key="NewPhpFileDialog/74.44.1846.1036@74.44.1846.1036" timestamp="1608006255365" />
+    <state x="792" y="488" width="389" height="155" key="NewPhpFileDialog/74.44.1846.1036@74.44.1846.1036" timestamp="1608347666864" />
     <state x="486" y="197" width="1022" height="736" key="SettingsEditor" timestamp="1607298062397">
       <screen x="74" y="44" width="1846" height="1036" />
     </state>

@@ -11,8 +11,10 @@
     <script src="https://kit.fontawesome.com/791abd0481.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <?php require "../inc/initialconfig.php"?>
     <?php include "header.php" ?>
-        <div id="conocenos">
+
+<div id="conocenos">
             <h3>Conocenos</h3>
         </div>
         <div id="mision">
