@@ -11,6 +11,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/appweb/css/styleError.css">
     <link rel="stylesheet" href="/appweb/css/styles.css">
+    <!--Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/appweb/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/appweb/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/appweb/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!--Favicon -->
 </head>
 
 <body>

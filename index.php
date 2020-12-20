@@ -16,6 +16,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+        <!--Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/appweb/images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/appweb/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/appweb/images/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <!--Favicon -->
     </head>
 
     <body>

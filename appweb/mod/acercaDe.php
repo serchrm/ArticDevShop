@@ -9,6 +9,12 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/791abd0481.js" crossorigin="anonymous"></script>
+    <!--Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/appweb/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/appweb/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/appweb/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!--Favicon -->
 </head>
 <body>
     <?php require "../inc/initialconfig.php"?>
